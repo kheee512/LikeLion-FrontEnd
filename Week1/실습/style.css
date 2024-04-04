@@ -21,9 +21,10 @@ body {
     width: 200px;
     height: auto;
     border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-.introduction {
+.main {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
@@ -31,12 +32,11 @@ body {
     max-width: 600px;
 }
 
-.introduction p {
+.main p {
     margin: 0;
 }
 
-
-.page-header, .page-footer {
+.page-header{
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -47,9 +47,36 @@ body {
     margin: 0;
     font-weight: 400;
     color: #333;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .page-footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
     font-size: 0.8rem;
     color: #777;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.description {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+    text-align: center;
+    margin-top: 10px;
 }
