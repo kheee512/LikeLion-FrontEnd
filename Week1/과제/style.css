@@ -1,0 +1,73 @@
+/* top banner */
+.outer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 227, 252);
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1232px;
+    height: 22px;
+    background-color: rgb(247, 227, 252);
+    padding: 10px 24px;
+    margin: 0 116px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    color: rgb(196, 79, 235);
+    font-weight: bold;
+}
+
+.box img:first-of-type {
+    margin-right: auto;
+    width: 52px;
+    height: 46px;
+}
+
+/* menu bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1312px;
+    height: 63px;
+    margin: 0 124px;
+    font-weight: bolder;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+.menu-orange {
+    padding: 16px 20px;
+    color: rgb(238, 127, 53)
+}
+.menu-black {
+    padding: 16px 20px;
+}
+.nav-items img {
+    width: 108px;
+    height: 16px;
+    padding: 24px 18px;
+}
+.nav-right {
+    margin-left: auto;
+    padding-right: 70px;
+}
+.divider {
+    margin: 0 10px;
+    font-weight: lighter;
+}
+
+/* middle banner */
+.middle-banner{
+    width: 1496px;
+    height: 400px;
+    background-color: rgb(255, 243, 235);
+}
+.inside-banner {
+    padding: 24px 24px;
+    margin: 116px 116px;
+}
