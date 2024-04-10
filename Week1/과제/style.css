@@ -63,11 +63,35 @@
 
 /* middle banner */
 .middle-banner{
+    display: flex;
+    align-items: top;
     width: 1496px;
     height: 400px;
     background-color: rgb(255, 243, 235);
 }
+.middle-banner img {
+    padding: 0px 110px;
+}
 .inside-banner {
+    position: absolute;
     padding: 24px 24px;
-    margin: 116px 116px;
+    margin: 50px 116px;
+}
+.top-text {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.middle-text {
+    color: rgb(230, 122, 45);
+    margin-top: -1px;
+    font-size: 36px;
+}
+.bottom-text{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.text-yellow {
+    color: rgb(255, 119, 16);
 }
