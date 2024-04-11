@@ -1,4 +1,4 @@
-*{
+* {
     cursor: pointer;
     font-family: Pretendard, -apple-system, "system-ui", system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
 }
@@ -31,6 +31,18 @@
 }
 
 /* menu bar */
+.nav-box {
+    background-color: white;
+    border-bottom: 0.5px solid lightgrey;
+    width: 1496px;
+    height: 63px;
+
+    position: sticky; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    z-index: 999;
+}
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -39,6 +51,9 @@
     height: 63px;
     margin: 0 124px;
     font-weight: bolder;
+    
+
+    
 }
 .nav-items {
     display: flex;
@@ -128,6 +143,7 @@
     justify-content: space-between;
     width: 1232px;
     margin-top: 40px;
+    padding-left: 0px;
 }
 .column {
     flex: 1;
@@ -135,56 +151,37 @@
     height: 416px;
     width: 290px;
     text-align: left;
+    list-style: none;
+    
 }
-
+.column-inside {
+    padding-top: 16px;
+    width: 290px;
+}
 .column1-text0 {
     align-items: center;
-    border-bottom-color: rgb(59, 130, 246);
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-image-outset: 0;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    border-left-color: rgb(59, 130, 246);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: rgb(59, 130, 246);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: rgb(59, 130, 246);
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-top-style: solid;
-    border-top-width: 1px;
+    border: 1px solid rgb(59, 130, 246);
+    border-radius: 4px;
     box-sizing: border-box;
     color: rgb(29, 78, 216);
-    
     cursor: pointer;
     display: inline-flex;
-    
-    
     font-size: 14px;
     font-variation-settings: normal;
     font-weight: 600;
-    height: 31px;
+    height: auto;
     line-height: 21px;
-    
-    padding-bottom: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 4px;
+    padding: 4px 8px;
     text-size-adjust: 100%;
-    width: 109.312px;
+    width: auto;
 }
 .column1-text1 {
     box-sizing: border-box;
     display: block;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 8px;
 }
 .column1-text2 { 
     box-sizing: border-box;
@@ -198,5 +195,110 @@
     word-break: keep-all;
 }
 .column1-text3 {
+    width: 290px;
+    height: 24px;
+    margin-top: 16px;
     color: grey;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* help button */
+#button {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+
+    bottom: 59px;
+    color: rgba(0, 0, 0, 0.85);
+    color-scheme: normal;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    height: 98px;
+    line-height: normal;
+    overflow-x: visible;
+    overflow-y: visible;
+    position: fixed;
+    right: 25px;
+    tab-size: 8;
+    text-size-adjust: auto;
+    text-wrap: wrap;
+    unicode-bidi: isolate;
+    white-space-collapse: collapse;
+    width: 216px;
+    z-index: 10;
+    border: none;
+
+}
+.help-button {
+    aspect-ratio: auto 216 / 98;
+    color: rgba(0, 0, 0, 0.85);
+    color-scheme: normal;
+    cursor: pointer;
+    display: block;
+    font-family: NotoSansKR, -apple-system, "system-ui", "Helvetica Neue", "맑은 고딕", "Segoe UI", Roboto, "system-ui", "sans-serif";
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-variation-settings: normal;
+    font-weight: 400;
+    height: 98px;
+    letter-spacing: normal;
+    line-height: normal;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    tab-size: 8;
+    text-align: center;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+    text-size-adjust: auto;
+    text-transform: none;
+    text-wrap: wrap;
+    white-space-collapse: collapse;
+    width: 216px;
+    word-spacing: 0px;
+    
+}
+
+
