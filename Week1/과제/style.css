@@ -148,6 +148,9 @@ html, body {
     width: 1232px;
     margin-top: 40px;
     padding-left: 0px;
+    position: relative;
+    z-index: 1;
+
 }
 .column {
     flex: 1;
@@ -156,7 +159,6 @@ html, body {
     width: 290px;
     text-align: left;
     list-style: none;
-    
 }
 .column-inside {
     padding-top: 16px;
@@ -168,7 +170,6 @@ html, body {
     border-radius: 4px;
     box-sizing: border-box;
     color: rgb(29, 78, 216);
-    cursor: pointer;
     display: inline-flex;
     font-size: 14px;
     font-variation-settings: normal;
@@ -192,58 +193,122 @@ html, body {
     cursor: pointer;
     display: block;
     font-size: 18px;
-    font-weight: light;
+    font-weight: 400;
     height: 54px;
     text-size-adjust: 100%;
     width: 290px;
+    line-height: 27px;
     word-break: keep-all;
 }
 .column1-text3 {
     width: 290px;
     height: 24px;
-    margin-top: 16px;
+    
     color: grey;
+
+    border-bottom-color: rgb(229, 229, 229);
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(229, 229, 229);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-color: rgb(229, 229, 229);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgb(229, 229, 229);
+    border-top-style: solid;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(163, 163, 163);
+    cursor: pointer;
+    display: block;
+    font-family: Pretendard, -apple-system, "system-ui", system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    font-feature-settings: normal;
+    font-size: 16px;
+    font-variation-settings: normal;
+    font-weight: 400;
+    height: 24px;
+    line-height: 24px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-top: 16px;
+    tab-size: 4;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 290px;
 }
 
-
-.bottim-banner {
+/* bottom banner */
+.bottom-banner {
+    position: absolute;
+    z-index: 2;
+    margin-top: 80px;
+    display: flex;
+    background-color: rgb(241, 244, 249);
+    width: 1512px;
+    height: 206px;
+}
+.bottom-banner img {
     display: flex;
     align-items: center;
-    
-    width: 1512px;
-
-
-
+    width: 1232px;
+    padding-left: 24px;
+    margin-left: 116px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bottom-banner-box {
+    position: absolute;
+    margin: 0px 116px;
+    padding: 0px 24px;
+    text-align: left;
+}
+.bottom-banner-text {
+    border: 0;
+    border-color: rgb(229, 229, 229);
+    border-style: solid;
+    border-width: 0;
+    border-image: none;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    height: 206px;
+    justify-content: center;
+    line-height: 24px;
+    padding-top: 16px;
+    position: relative;
+    tab-size: 4;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+}
+.bottom-banner-text1 {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(7, 44, 86);
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.bottom-banner-text2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 36px;
+}
+.bottom-banner-text3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(115, 115, 115);
+}
 
 
 
