@@ -2,6 +2,10 @@
     cursor: pointer;
     font-family: Pretendard, -apple-system, "system-ui", system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+}
 /* top banner */
 .outer-box {
     display: flex;
@@ -34,7 +38,7 @@
 .nav-box {
     background-color: white;
     border-bottom: 0.5px solid lightgrey;
-    width: 1496px;
+    width: 1512px;
     height: 63px;
 
     position: sticky; 
@@ -85,7 +89,7 @@
 .middle-banner{
     display: flex;
     align-items: top;
-    width: 1496px;
+    width: 1512px;
     height: 400px;
     background-color: rgb(255, 243, 235);
 }
@@ -200,6 +204,29 @@
     margin-top: 16px;
     color: grey;
 }
+
+
+.bottim-banner {
+    display: flex;
+    align-items: center;
+    
+    width: 1512px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
