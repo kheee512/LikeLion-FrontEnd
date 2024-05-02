@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 화면 최소 높이 100vh으로 설정 */
+    margin: 0;
+}
+
+#main {
+    text-align: center;
+}
+#count {
+    font-size: 48px;
+    margin: 20px;
+}
+
+button {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* 배경색 전환 효과 */
+    margin: 0 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* 마우스를 버튼에 가져가면 배경색이 바뀌도록 */
+button:hover {
+    background-color: rgb(119, 119, 119);
+}

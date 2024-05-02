@@ -1,0 +1,105 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* 최소 높이 100% 뷰포트 */
+}
+
+#main {
+    background-color: rgb(34, 34, 34);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* 그림자 효과 */
+    padding: 40px;
+    width: 80%;
+    max-width: 600px;
+    min-width: 300px;
+    max-height: 600px;
+    border-radius: 10px;
+    overflow: hidden; /* 내용 넘칠 경우 추가 내용을 숨김 */
+    display: flex;
+    flex-direction: column; /* 세로 정렬 */
+    margin: 5vh auto; /* 상하 마진을 5%로 설정 */
+}
+#todo-list {
+    list-style: none; /* 목록 스타일 제거 */
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto; /* 세로 스크롤 기능 추가 */
+    flex-grow: 1; /* 남은 공간을 채움 */
+}
+#todo-list li {
+    padding: 15px;
+    border-bottom: 1px solid #555; /* 하단 테두리 */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 좌우 공간을 균등 분할 */
+}
+#todo-list li:last-child {
+    border-bottom: none;
+}
+
+.completed {
+    text-decoration: line-through; /* 취소선 */
+}
+.buttons {
+    display: flex;
+}
+/* 버튼 스타일 */
+.button, .edit-button, .delete-button, .complete-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.complete-button {
+    background-color: gray;
+    margin-left: 0;
+}
+.edit-button {
+    background-color: darkgray;
+}
+.delete-button {
+    background-color: orangered;
+}
+
+/* 입력 필드 */
+input[type="text"], input[type="button"] {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    border: none;
+}
+/* 입력 행 */
+.input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.input-row input[type="text"] {
+    flex-grow: 1; /* 남은 공간을 채움 */
+    margin-right: 5px;
+}
+.center {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+    width: calc(100% - 180px); /* 전체 너비 조정 (180px 줄이기) */
+    font-weight: bold;
+    padding-left: 90px;
+    padding-right: 90px;
+}
