@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.bannerWrapper {
+  position: fixed;
+  display: block;
+  background-color: white;
+  height: 64px;
+  width: 100vw;
+  z-index: 999;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  height: 45px;
+  width: 78px;
+  margin-right: 30px;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.topBanner {
+  position: relative;
+  align-items: left;
+  display: flex;
+  box-sizing: border-box;
+
+  height: 64px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 156px;
+  margin-right: 156px;
+  width : 1200px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  
+}
+
+.navBtn {
+  display: inline-block;
+  text-align: left;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navBtnTxtSelected {
+  text-decoration: none;
+  color: rgb(251, 88, 16);
+}
+
+.navBtnTxt {
+  text-decoration: none;
+  color: black;
+}
+
+.mainContent {
+  display: block;
+  padding-top: 64px;
+  padding-bottom: 80px;
+  width: 100vw;
+  height: 3000px;
+}
+
+.midBannerWrapper {
+  width: 100vw;
+  height: 315px;
+  background-color: rgb(252, 221, 202);
+  position: relative;
+  display: block;
+}
+
+.midBannerText {
+  margin-left: 356px;
+  margin-right: 356px;
+  padding-top: 48px;
+  padding-left: 16px;
+  padding-right: 16px;  
+}
+
+#midBannerText1 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#midBannerText2 {
+  margin-top: 10px;
+}
+#midBannerText3 {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  font-size: 18px;
+}
+#midBannerText4 {
+  margin-top: 0px;
+  font-size: 18px;
+  
+}
+#postRecruitBtn {
+  margin-top: 11px;
+  box-sizing: border-box;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(255, 111, 15);
+  border-style: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+#postRecruitBtnTxt {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+#midBannerImage {
+  left: 756px;
+  top: -211px;
+  display: block;
+  position: relative;
+  height: 260px;
+}
