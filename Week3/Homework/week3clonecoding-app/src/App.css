@@ -69,12 +69,58 @@ html, body {
   color: black;
 }
 
+
+
+
+.topSearchandChat {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+}
+#searchBox {
+  align-content: center;
+  width: 288px;
+  height: 40px;
+  
+  background-color: rgb(242, 243, 246);
+  border-radius: 5px;
+
+  margin-right: 11px;
+}
+#searchBoxTxt {
+  margin-left: 11px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: start;
+  color: rgb(121, 127, 135);
+}
+#startChat {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  background-color: white;
+  border-radius: 5px;
+  border-color: rgb(209, 211, 216);
+  border-style: solid;
+  border-width: 1px;
+}
+#startChatTxt {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+
+
+
 .mainContent {
   display: block;
   padding-top: 64px;
   padding-bottom: 80px;
   width: 100vw;
-  height: 3000px;
+  height: 1150px;
 }
 
 .midBannerWrapper {
@@ -137,4 +183,156 @@ html, body {
   display: block;
   position: relative;
   height: 260px;
+}
+
+.bottomBannerWrapper {
+  display: block;
+  margin-left: 372px;
+  margin-right: 372px;
+}
+#bottomBannerTitle {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.jobList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listItemWrapper {
+  display: flex;
+  position: relative;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.listItem {
+  display: block;
+  position: relative;
+  
+}
+.listItemTxt {
+  display: flex;
+  position: relative;  
+  margin-left: 120px;
+  flex-direction: column;
+  padding-right: 15px;
+
+}
+#imgPosition {
+  display: block;
+  align-items: center;
+  position: relative;
+}
+#img {
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  width: 108px;
+  height: 108px;
+  border-radius: 8px;
+  object-fit: cover;
+  border-image-repeat: stretch;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#payment {
+  font-size: 16px;
+  font-weight: 700;
+}
+#title {
+  margin-bottom: 10px;
+  font-size: 18px;
+
+}
+#location {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: rgb(134, 139, 148);
+}
+
+.bottomBanner{
+  width: 768px;
+  margin-top: 44px;
+  margin-bottom: 64px;
+  padding-left: 24px;
+  padding-bottom: 28px;
+  padding-top: 28px;
+  padding-right: 24px;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 5px;
+  background-color: rgb(247, 241, 235);
+  margin: 0 auto;
+}
+.bannerTexts{
+  display: flex;
+}
+#bannerLogo {
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+}
+#bannerTxt {
+  display: inline-block;
+  align-self: center;
+  font-weight: 700;
+  font-size: 20px;
+  align-self: left;
+  margin-left: 20px;
+  width: 400px;
+}
+.bannerButtons {
+  display: flex;
+  align-items: center;
+}
+#bannerTxtProperty {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#freeTrial {
+  display: inline-block;
+  background-color: rgb(255, 111, 15);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  border-width: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 60px;
+
+}
+#contact {
+  display: inline-block;
+  background-color: rgb(247, 215, 198);
+  color: rgb(255, 111, 15);
+  border-radius: 5px;
+  border-width: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
