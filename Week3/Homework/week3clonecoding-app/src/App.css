@@ -329,6 +329,8 @@ html, body {
   display: inline-block;
   background-color: rgb(247, 215, 198);
   color: rgb(255, 111, 15);
+  font-weight: 700;
+  font-size: 13px;
   border-radius: 5px;
   border-width: 0px;
   padding-left: 10px;
