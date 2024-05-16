@@ -12,8 +12,22 @@ import img8 from "./daangn_img/8.jpeg";
 import img9 from "./daangn_img/9.jpeg";
 import img10 from "./daangn_img/10.jpeg";
 import banner_icon from "./daangn_img/banner-icon.png";
+import { useMediaQuery } from 'react-responsive';
 
 function App() {
+
+
+
+  const isPc = useMediaQuery ({
+    query: "(min-width: 1024px)"
+  });
+
+  const 
+
+
+
+
+
 
 
   return (
@@ -75,16 +89,11 @@ function App() {
                   <p id="postRecruitBtnTxt">공고 올리기</p>
                 </button>
               </div>
-
             </div>
-
           </div>
-
           <div className="midBannerImg">
               <img src={require("./daangn_img/header-image.png")} id="midBannerImage" />
           </div>
-
-
         </div>
 
         <div className="bottomBannerWrapper">
@@ -92,16 +101,7 @@ function App() {
             <div id="bottomBannerTitleTxt">인기 당근알바</div>
           </h2>
 
-
-
-
-
-
-
-
           <div className="jobList">
-
-
             <div className="listItemWrapper">
               <article className="listItem">
                 <div id="imgPosition">
@@ -147,9 +147,6 @@ function App() {
                   <div id="location">강원특별자치도 원주시 학성동</div>
                   <div id="payment">일급 160,000</div>
                 </article>
-
-                
-                
               </article>
             </div>
 
@@ -170,7 +167,6 @@ function App() {
               </article>
             </div>
 
-
             <div className="listItemWrapper">
               <article className="listItem">
 
@@ -182,12 +178,9 @@ function App() {
                   <div id="title">삼성전자 어린이날 행사</div>
                   <div id="location">M&F promotion · 충청남도 아산시 배방읍</div>
                   <div id="payment">시급 10,000</div>
-                </article>
-                
-                
+                </article>  
               </article>
             </div>
-
 
             <div className="listItemWrapper">
               <article className="listItem">
@@ -205,8 +198,6 @@ function App() {
               </article>
             </div>
 
-
-
             <div className="listItemWrapper">
               <article className="listItem">
 
@@ -222,7 +213,6 @@ function App() {
                 
               </article>
             </div>
-
 
             <div className="listItemWrapper">
               <article className="listItem">
@@ -240,7 +230,6 @@ function App() {
               </article>
             </div>
 
-
             <div className="listItemWrapper">
               <article className="listItem">
 
@@ -257,7 +246,6 @@ function App() {
               </article>
             </div>
 
-
             <div className="listItemWrapper">
               <article className="listItem">
 
@@ -273,7 +261,6 @@ function App() {
                 
               </article>
             </div>
-
           </div>
         </div>
 
@@ -292,16 +279,6 @@ function App() {
           </div>
         </div>
       </div>
-        
-      
-      
-
-      <div>
-
-
-      </div>
-
-
     </div>
   );
 }
