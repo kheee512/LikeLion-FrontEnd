@@ -17,6 +17,9 @@ const Header = styled.header`
   justify-content: center;
   font-size: 30px;
   color: white;
+  @media screen and (min-width: 375px) and (max-width: 767px) {
+    font-size: 20px;
+  }
 `;
 
 const TodoContainer = styled.div`
@@ -44,6 +47,8 @@ const AddButton = styled.button`
   font-size: 16px;
   font-weight: 700;
   border-radius : 10px;
+  color: white;
+  background: black;
 `;
 
 const List = styled.ul`
@@ -58,6 +63,13 @@ const List = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    margin-top: 50px;
+    scale: 1.3;
+  }
+  @media screen and (min-width: 375px) and (max-width: 430px) {
+    scale: 0.8;
+  }
 `;
 
 const Item = styled.li`
