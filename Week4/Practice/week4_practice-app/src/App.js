@@ -1,5 +1,6 @@
 import './App.css';
-import React from 'react';
+import { useMediaQuery } from 'react-responsive';
+import react from 'react';
 import logo from "./daangn_img/logo.png";
 import img1 from "./daangn_img/1.jpeg";
 import img2 from "./daangn_img/2.jpeg";
@@ -12,24 +13,10 @@ import img8 from "./daangn_img/8.jpeg";
 import img9 from "./daangn_img/9.jpeg";
 import img10 from "./daangn_img/10.jpeg";
 import banner_icon from "./daangn_img/banner-icon.png";
-import { useMediaQuery } from 'react-responsive';
+
+
 
 function App() {
-
-
-
-  const isPc = useMediaQuery ({
-    query: "(min-width: 1024px)"
-  });
-
-  const 
-
-
-
-
-
-
-
   return (
     <div className="App">
 
@@ -70,10 +57,6 @@ function App() {
         
       </div>
 
-
-
-
-
       <div className="mainContent">
         <div className="midBannerWrapper">
           <div className="midBannerContent">
@@ -89,11 +72,13 @@ function App() {
                   <p id="postRecruitBtnTxt">공고 올리기</p>
                 </button>
               </div>
+              <div className="midBannerImg">
+                <img src={require("./daangn_img/header-image.png")} id="midBannerImage" />
+              </div>     
             </div>
+            
           </div>
-          <div className="midBannerImg">
-              <img src={require("./daangn_img/header-image.png")} id="midBannerImage" />
-          </div>
+          
         </div>
 
         <div className="bottomBannerWrapper">
